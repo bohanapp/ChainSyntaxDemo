@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ClassA.h"
+#import "ClassB.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    ClassA *a = [ClassA new];
+    a.aaa(YES).bbb(@"HelloWorld!").ccc(@"Objective-C").ddd(NO);
 }
 
 - (void)didReceiveMemoryWarning {

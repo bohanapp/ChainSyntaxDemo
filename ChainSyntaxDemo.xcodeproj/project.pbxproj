@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3869D01CDB514000730278 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3869CD1CDB514000730278 /* ClassA.m */; };
+		1C3869D11CDB514000730278 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3869CF1CDB514000730278 /* ClassB.m */; };
 		30A05F1D1CD6382400C548C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A05F1C1CD6382400C548C6 /* main.m */; };
 		30A05F201CD6382400C548C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A05F1F1CD6382400C548C6 /* AppDelegate.m */; };
 		30A05F231CD6382400C548C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A05F221CD6382400C548C6 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C3869CC1CDB514000730278 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		1C3869CD1CDB514000730278 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		1C3869CE1CDB514000730278 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		1C3869CF1CDB514000730278 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
 		30A05F181CD6382400C548C6 /* ChainSyntaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainSyntaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A05F1C1CD6382400C548C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30A05F1E1CD6382400C548C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				30A05F1F1CD6382400C548C6 /* AppDelegate.m */,
 				30A05F211CD6382400C548C6 /* ViewController.h */,
 				30A05F221CD6382400C548C6 /* ViewController.m */,
+				1C3869CC1CDB514000730278 /* ClassA.h */,
+				1C3869CD1CDB514000730278 /* ClassA.m */,
+				1C3869CE1CDB514000730278 /* ClassB.h */,
+				1C3869CF1CDB514000730278 /* ClassB.m */,
 				30A05F241CD6382400C548C6 /* Main.storyboard */,
 				30A05F271CD6382400C548C6 /* Assets.xcassets */,
 				30A05F291CD6382400C548C6 /* LaunchScreen.storyboard */,
@@ -272,7 +282,9 @@
 			files = (
 				30A05F231CD6382400C548C6 /* ViewController.m in Sources */,
 				30A05F201CD6382400C548C6 /* AppDelegate.m in Sources */,
+				1C3869D01CDB514000730278 /* ClassA.m in Sources */,
 				30A05F1D1CD6382400C548C6 /* main.m in Sources */,
+				1C3869D11CDB514000730278 /* ClassB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				30A05F471CD6382400C548C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30A05F481CD6382400C548C6 /* Build configuration list for PBXNativeTarget "ChainSyntaxDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				30A05F4A1CD6382400C548C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30A05F4B1CD6382400C548C6 /* Build configuration list for PBXNativeTarget "ChainSyntaxDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				30A05F4D1CD6382400C548C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
